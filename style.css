@@ -351,7 +351,7 @@ html {
 }
 
 body {
-	background: #fff; /* Fallback for when there is no custom background color defined. */
+	background: #ffc0cb; /* Fallback for when there is no custom background color defined. */
 }
 
 blockquote:before,
@@ -403,6 +403,14 @@ dd {
 img {
 	height: auto; /* Make sure images are scaled correctly. */
 	max-width: 100%; /* Adhere to container width. */
+}
+
+.name {
+	display: block;
+	margin-top: 0 0 1.5em;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 figure {
