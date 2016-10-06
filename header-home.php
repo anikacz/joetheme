@@ -24,6 +24,6 @@
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'joetheme' ); ?></a>
 	<div id="content" class="site-content">
 	<div class="img">
-		<center></center><img src="http://czander.com/wp-content/uploads/2016/10/name.gif" alt="ENTER" width="600" align="middle" class="name"></center>
+		<center></center><a href="http://czander.com/home"><img src="http://czander.com/wp-content/uploads/2016/10/name.gif" alt="ENTER" width="600" align="middle" class="name"></a></center>
 	</div>
 	
