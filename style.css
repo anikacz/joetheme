@@ -403,6 +403,7 @@ dd {
 img {
 	height: auto; /* Make sure images are scaled correctly. */
 	max-width: 100%; /* Adhere to container width. */
+	border-radius: 17px;
 }
 
 .name {
@@ -562,13 +563,14 @@ a:active {
 }
 
 .main-navigation li {
-	float: left;
+	text-align: center;
 	position: relative;
 }
 
 .main-navigation a {
 	display: block;
 	text-decoration: none;
+	padding: 13px;
 }
 
 .main-navigation ul ul {
@@ -619,6 +621,10 @@ a:active {
 .main-navigation .current-menu-item > a,
 .main-navigation .current_page_ancestor > a,
 .main-navigation .current-menu-ancestor > a {
+}
+
+.current-menu-item {
+	display: none;
 }
 
 /* Small menu. */
@@ -772,6 +778,12 @@ a:active {
 	margin: 0 0 1.5em;
 }
 
+.entry-title {
+	margin-left: 63px;
+	margin-top: 31px;
+	margin-bottom: 0;
+}
+
 .byline,
 .updated:not(.published) {
 	display: none;
@@ -786,6 +798,8 @@ a:active {
 .entry-content,
 .entry-summary {
 	margin: 1.5em 0 0;
+	max-width: 800px;
+  margin: auto;
 }
 
 .page-links {
